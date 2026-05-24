@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Bank — Переводы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+>
+    <header class="header">
+        <div class="logo">ELITE<span>BANK</span></div>
+        <nav class="nav">
+            <a href="glavnaya.html" class="nav-link">Главная</a>
+            <a href="perevod.html" class="nav-link active">Переводы</a>
+            <a href="invest.html" class="nav-link">Инвестиции</a>
+        </nav>
+        <div class="user-profile">
+            <div class="avatar"></div>
+            <a href="index.html" class="logout-link" title="Выйти">
+                <span class="user-name">ЖАНЫБЕКОВ А.</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <div class="welcome-block">
+            <h1>Денежные переводы</h1>
+            <p>Мгновенные и безопасные транзакции по всему миру.</p>
+        </div>
+
+        <section class="flex-section">
+            
+           
+            <div class="transfer-form-block">
+                <h2>Новый перевод</h2>
+                
+                
+                <form action="perevod.html" method="get" class="transfer-form">
+                    
+                  
+                    <div class="input-group">
+                        <label for="source-card">Счет списания</label>
+                        <select id="source-card" class="styled-select" required>
+                            <option value="gold">Elite Gold Card (•••• 5678) — 1,245,500 KGS</option>
+                            <option value="black">Elite Black Card (•••• 1122) — 0 KGS</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="destination">Номер карты или номер получателя</label>
+                        <input type="text" id="destination" placeholder="0000 0000 0000 0000 / 14 цифр ИНН" required autocomplete="off">
+                    </div>
+
+                  
+                    <div class="input-group">
+                        <label for="amount">Сумма перевода (KGS)</label>
+                        <input type="number" id="amount" placeholder="0.00" min="1" max="500000" required>
+                    </div>
+
+               
+                    <button type="submit" class="submit-transfer-btn">
+                        Подтвердить и отправить
+                    </button>
+
+                </form>
+            </div>
+
+           
+            <div class="contacts-block">
+                <h2>Частые получатели</h2>
+                <p class="section-desc">Нажмите на контакт, чтобы быстро скопировать имя (имитация шаблона)</p>
+                
+                <div class="contact-list">
+                    
+               
+                    <div class="contact-item">
+                        <div class="contact-avatar">AM</div>
+                        <div class="contact-info">
+                            <h4>Адилет М.</h4>
+                            <p>•••• 4321</p>
+                        </div>
+                    </div>
+
+                   
+                    <div class="contact-item">
+                        <div class="contact-avatar">SB</div>
+                        <div class="contact-info">
+                            <h4>Салима Б.</h4>
+                            <p>•••• 9876</p>
+                        </div>
+                    </div>
+
+                
+                    <div class="contact-item">
+                        <div class="contact-avatar">ED</div>
+                        <div class="contact-info">
+                            <h4>Эльдар Д.</h4>
+                            <p>•••• 5544</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+   
+    <footer class="footer">
+    <p> &copy; 2026 Elite Bank. Все права защищены. Выберайте Elite Bank</p>
+    </footer>
+
+</body>
+</html>

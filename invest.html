@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Bank — Инвестиции</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">ELITE<span>BANK</span></div>
+        <nav class="nav">
+            <a href="glavnaya.html" class="nav-link">Главная</a>
+            <a href="perevod.html" class="nav-link">Переводы</a>
+            <a href="invest.html" class="nav-link active">Инвестиции</a>
+        </nav>
+        <div class="user-profile">
+            <div class="avatar"></div>
+            <a href="index.html" class="logout-link" title="Выйти">
+                <span class="user-name">ЖАНЫБЕКОВ А.</span>
+            </a>
+        </div>
+    </header>
+
+
+    <main class="main-container">
+
+        <div class="welcome-block">
+            <h1>Премиальные Инвестиции</h1>
+            <p>Управляйте своим капиталом и приумножайте доход с экспертными стратегиями.</p>
+        </div>
+
+      
+        <section class="tabs-section">
+            <h2>Выберите инвестиционную стратегию</h2>
+            
+         
+            <input type="radio" name="tariff-tab" id="tab-start" checked class="tab-switch">
+            <input type="radio" name="tariff-tab" id="tab-balance" class="tab-switch">
+            <input type="radio" name="tariff-tab" id="tab-vip" class="tab-switch">
+
+            <div class="tab-buttons">
+                <label for="tab-start" class="tab-btn">Консервативная</label>
+                <label for="tab-balance" class="tab-btn">Сбалансированная</label>
+                <label for="tab-vip" class="tab-btn">Elite VIP</label>
+            </div>
+
+
+            <div class="tab-content-wrapper">
+                
+                <div class="tariff-card content-start">
+                    <div class="tariff-badge">Низкий риск</div>
+                    <h3>Стратегия «Старт»</h3>
+                    <div class="yield">до 12% <span>годовых</span></div>
+                    <p>Инвестиции в государственные облигации и стабильные фонды. Идеально для защиты капитала от инфляции.</p>
+                    <div class="min-amount">Мин. сумма: 10 000 KGS</div>
+                </div>
+
+                <div class="tariff-card content-balance">
+                    <div class="tariff-badge silver">Средний риск</div>
+                    <h3>Стратегия «Баланс»</h3>
+                    <div class="yield">до 24% <span>годовых</span></div>
+                    <p>Портфель из акций крупнейших технологических компаний (IT) и золота. Оптимальное соотношение риска и доходности.</p>
+                    <div class="min-amount">Мин. сумма: 50 000 KGS</div>
+                </div>
+
+                <div class="tariff-card content-vip">
+                    <div class="tariff-badge gold">Высокий доход</div>
+                    <h3>Стратегия «Elite VIP»</h3>
+                    <div class="yield">до 45% <span>годовых</span></div>
+                    <p>Высокодоходные инвестиционные инструменты, венчурные фонды и криптоактивы под управлением ИИ.</p>
+                    <div class="min-amount">Мин. сумма: 200 000 KGS</div>
+                </div>
+
+            </div>
+        </section>
+
+    
+        <section class="assets-section">
+            <h2>Рынок активов в реальном времени</h2>
+            
+            <div class="grid-section">
+                
+           
+                <div class="card asset-card">
+                    <div class="asset-header">
+                        <h4>Золото (XAU/KGS)</h4>
+                        <span class="trend plus">+8.2%</span>
+                    </div>
+                    <div class="asset-price">7,420 KGS <span class="unit">/ грамм</span></div>
+                </div>
+
+                <div class="card asset-card">
+                    <div class="asset-header">
+                        <h4>Индекс IT компаний</h4>
+                        <span class="trend plus">+14.5%</span>
+                    </div>
+                    <div class="asset-price">34,800 KGS <span class="unit">/ лот</span></div>
+                </div>
+
+
+                <div class="card asset-card">
+                    <div class="asset-header">
+                        <h4>Нефть Brent</h4>
+                        <span class="trend minus">-1.4%</span>
+                    </div>
+                    <div class="asset-price">6,950 KGS <span class="unit">/ баррель</span></div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+>
+    <footer class="footer">
+        <p> &copy; 2026 Elite Bank. Все права защищены. Выберайте Elite Bank</p>
+    </footer>
+
+</body>
+</html>
